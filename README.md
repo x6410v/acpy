@@ -1,1 +1,3 @@
-# acpy
+# ACPY
+
+Python autoclicker

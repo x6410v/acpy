@@ -1,0 +1,25 @@
+# autoclicker:
+#  click_interval_min: 0.001  | Minimum delay between clicks (higher CPS)
+#  click_interval_max: 0.005  | Maximum delay between clicks (lower CPS)
+#  jitter_amount: 10          | Maximum random offset for click position
+#  bezier_points: 20          | Fewer points = faster movement (10-30)
+#  cursor_speed: 0.0005       | Lower = faster cursor movement along Bezier curve
+#  click_burst_count: 3       | Number of clicks per movement
+#  burst_delay_min: 0.002     | Delay between clicks in a burst (higher = slower)
+#  burst_delay_max: 0.005     | Max delay between burst clicks
+#  movement_cooldown: 0.01    | Pause after cursor reaches target (between paths)
+
+
+autoclicker:
+  mode: "automatic"        # "automatic" or "manual"
+  hotkey_toggle: "t"      # Hotkey to toggle between modes
+  click_interval_min: 0.001
+  click_interval_max: 0.005
+  jitter_amount: 10
+  bezier_points: 20
+  cursor_speed: 0.0005
+  click_burst_count: 3
+  burst_delay_min: 0.002
+  burst_delay_max: 0.005
+  movement_cooldown: 0.01
+  manual_tracking_interval: 0.005

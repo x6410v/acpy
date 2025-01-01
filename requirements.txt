@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+numpy
+pyautogui
+rich
+pyyaml
+pillow
+keyboard
+pyinstaller
+PyQt6
